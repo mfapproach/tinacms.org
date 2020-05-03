@@ -25,7 +25,7 @@ consumes:
 > * [Editing Markdown Files with Next.js](/docs/nextjs/markdown)
 > * [Editing JSON Files with Next.js](/docs/nextjs/creating-forms)
 
-The recommended way to create forms with Tina is to use the form hooks. These are explained in detail later on in this document, but let's start with a high-level overview of how form hooks are used.
+The recommended way to create forms with Tina is to use the formed hooks. These are explained in detail later on in this document, but let's start with a high-level overview of how form hooks are used.
 
 When using form hooks, they should be called inside a **Page** component; that is, the component that takes your content and renders a page from it. In the following contrived example, we have a Page component that receives its content in the component's props, including a `title` and some `markdownContent`:
 
